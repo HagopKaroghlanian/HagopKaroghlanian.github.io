@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/06158fa568.js" crossorigin="anonymous"></script>
+    <title>
+      DevHagop Portfolio Website
+    </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="https://avatars0.githubusercontent.com/u/44649257?s=400&v=4" height="50" width="50" alt="">
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"> <a href="index.html" class="nav__link"> Home </a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link"> My skills </a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link"> About me </a></li>
+            <li class="nav__item"><a href=" index.html#work" class="nav__link"> My work </a></li>
+          </ul>
+      </nav>
+    </header>
+
+
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+      <strong> Lake Sevan </strong>
+      </h1>
+      <p class="section__subtitle--intro">Travel website</p>
+      <img src="img/portfolio_01.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p> This is the very first project i worked on while going through Teamtreehouses' Front-End Web Development track. It's a static website using purely HTML/CSS. It was originally a website of Lake Tahoe in California, however i remade it using our wonderful Lake Sevan!</p>
+      <img src="img/portfolio_01.jpg" alt="" class = "portfolio-image">
+      <p>The project displays a large header image of Lake Sevan, with a beautiful title and a customized arrow to add style. Followed by some information about the Lake, the website continues to the first section that it about the wildlife. Again, i have attached a picture with a button under it. I customized the button with CSS color contrast to make it stand out.</p>
+      <img src="img/portfolio-01-3.png" alt="" class = "portfolio-image">
+      <p>The last section is divided between two containers using flexbox. I have made it responsive to different screen sizes taking into consideration good UX. At smaller screen sizes, the images line up one under the other, while at larger screen sizes, they flex across the screen</p>
+      <img src="img/portfolio-01-2.png" alt="" class = "portfolio-image">
+    </div>
+
+
+
+      <!-- footer -->
+      <footer class="footer">
+        <a href="mailto:hagopkar1@gmail.com" class="footer__link"> Contact me by e-mail</a>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.facebook.com/hagop.karoghlanian.3/">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+          <a class="social-list__link" href="https://www.instagram.com/hagop.karoghlanian/?hl=en">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          </li>
+          <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/HKaroghlanian">
+            <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/HagopKaroghlanian">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        </ul>
+      </footer>
+
+      <script src="index.js" ></script>
+
+  </body>
+</html>
